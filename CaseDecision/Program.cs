@@ -8,7 +8,7 @@ void FillArray(string[] str, int size)
     }
     Console.WriteLine();
 }
-void PrintArray(string[] str, string massage = "Output given array")
+void PrintArray(string[] str, string massage = "Output given array:")
 {
     Console.WriteLine(massage);
     int size = str.Length;
@@ -38,7 +38,7 @@ void FinalCase()
     string[] array = new string[length];
     FillArray(array, length);
     PrintArray(array);
-    Console.WriteLine("Output new sort array");
+    Console.WriteLine("Output new sort array:");
     SortArray(array);
 }
 FinalCase();
